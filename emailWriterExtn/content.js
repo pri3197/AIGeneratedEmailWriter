@@ -82,7 +82,7 @@ function injectButton() {
             const composeBox = document.querySelector('[role="textbox"][g_editable=true]');
 
             if (composeBox) {
-                composeBox.textContent = generatedReply; // Use this instead of execCommand
+                composeBox.textContent = generatedReply; // instead of execCommand
             } else {
                 console.error('Compose box not found');
             }
